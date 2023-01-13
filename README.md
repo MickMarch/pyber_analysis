@@ -4,7 +4,7 @@
 
 ### Purpose
 
-The purpose of this project is use Jupyter Notebook to analyze ride-sharing data. This will be done by:
+The purpose of this project is to use Jupyter Notebook to analyze ride-sharing data. This will be done by:
 
 - Creating a summary of the data by **city type**
 - Generating a **multi-line chart** that shows **weekly fares** for each **city type**.
@@ -31,7 +31,7 @@ The second dataset contains the the following data for each ride:
 
 ### Restructuring of Datasets
 
-Merging the datasets on the "city name" was an important first step to get all the data into one data frame:
+Merging the datasets on the "city" column was an important first step to get all the data into one data frame:
 
 ![merged_data_example](/analysis/merged_data_example.png)
 
@@ -76,6 +76,6 @@ We can see that the success from this data is a matter of perspective. In Rural 
 
 1. In Urban cities, there are more drivers than there are rides. This may be a sign to boost the company's presence within the Urban cities, to be able to raise the amount of rides being made to at least match the drivers in the company's employ. This would be to combat the huge difference in average fare per driver.
 
-2. Alternatively, it may be worth it to prevent having so many drivers in Urban cities. Letting people become driver when there isn't guaranteed work for 32.4% of the registered drivers. This could prevent being seen as an unreliable place to work. This would also be an attempt to increase the average fare per driver.
+2. Alternatively, it may be worth it to prevent having so many drivers in Urban cities. When there isn't guaranteed work for 32.4% of the registered drivers, it could be time to consider slowing the onboarding of new drivers. This approach could prevent being seen as an unreliable place to work. This would also be an attempt to increase the average fare per driver.
 
-3. It may be a good idea to do some market research into the Suburban and Rural cities. They may be strained with their limited driver count. There might be more ride than the drivers can be available for. This is to combat the low total fare amounts of Suburban and Rural cities.
+3. It may be a good idea to do some market research into the Suburban and Rural cities. They may be strained with their limited driver count. There might be more rides than the drivers can be available for. This is to combat the low total fare amounts of Suburban and Rural cities.
